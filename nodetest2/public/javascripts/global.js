@@ -72,7 +72,7 @@
     function addUser (event) {
       event.preventDefault();
 
-      //Basic Validation -- increase errorCount variable if any fields are blank
-      
+      ///Basic Validation -- increase errorCount variable if any fields are blank
+
 
     }
