@@ -30,7 +30,8 @@ app.use(function(req,res,next){
   req.db = db;
   next();
 });
-
+//
+//app.put('/updateuser/:id', user.updateuser(db));
 app.use('/', routes);
 app.use('/users', users);
 
